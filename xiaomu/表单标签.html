@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <audio controls>
+        <source src="music/hangpaibgm(mp3).mp3" type="audio/mpeg">
+        <source src="music/hangpaibgm(ogg).ogg" type="audio/ogg">
+        <source src="music/hangpaibgm(wav).wav" type="audio/wav">
+        抱歉，您的浏览器不支持audio标签，请升级浏览器
+    </audio>
+    <p>
+        <video controls autoplay loop width="100">
+            <source src="video/flower.mp4" type="video/mp4">
+            <!-- <source src="video/flower.webm" type="video/webm">
+            <source src="video/flower.ogv" type="video/ogv">
+            <source src="video/flower.avi" type="video/avi"> -->
+            抱歉，您的浏览器不支持video标签，请升级浏览器
+        </video>
+        <video controls src="video/flower.mp4" autoplay loop width="100"></video>
+    </p>
+
+    <form action="test.php" method="POST">
+        <p>
+            必填：
+            <input type="text" required>
+        </p>
+        <p>
+            请输入你的姓名：<input type="text" value="张三">
+        </p>
+        <p>
+            报考院校：<input type="text" value="南方大学" disabled>
+        </p>
+        <p>
+            毕业学校：<input type="text" placeholder="西安电子科技大学">
+        </p>
+        <p>
+            单选框
+            性别：
+            <label>
+                <input type="radio" name="sex" value="给服务器发送男" checked> 男
+            </label>
+            <input type="radio" name="sex" value="给服务器发送女" id="girl">
+            <label for="girl">
+                女
+            </label>
+        </p>
+        <p>
+            复选框
+            历朝朝代：
+            <label> <input type="checkbox" name="time" value="qc"> 秦朝</label>
+
+            <input type="checkbox" id="t" name="time" value="tc">
+            <label for="t"> 唐朝 </label>
+        </p>
+        <p>
+            密码
+            请输入密码：
+            <input type="password" placeholder="请输入密码">
+        </p>
+        <p>
+            下拉标签
+            牛逼的公司：
+            <select name="" id="">
+                <option value="阿里巴巴">阿里巴巴</option>
+                <option value="腾讯">腾讯</option>
+                <option value="紫金">紫金支点技术股份有限公司</option>
+            </select>
+        </p>
+        <p>
+            留言
+            <textarea name="" id="" cols="30" rows="2"></textarea>
+        </p>
+        <p>
+            <button>我是普通按钮</button>
+            <input type="button" value="我是另一个普通按钮">
+        </p>
+        <p>
+            <input type="submit" value="提交表单">
+        </p>
+        <p>
+            <input type="reset" value="重置表单">
+        </p>
+
+        <p>
+            颜色选择控件：
+            <input type="color">
+        </p>
+
+        <p>
+            日期选择控件：
+            <input type="date">
+        </p>
+        <p>
+            时间选择控件：
+            <input type="time">
+
+        </p>
+        <p>
+            文件选择控件：
+            <input type="file">
+        </p>
+        <p>
+            电子邮件：
+            <input type="email">
+        </p>
+        <p>
+            数字控件：
+            <input type="number" min="10" max="999">
+        </p>
+        <p>
+            拖拽条：
+            <input type="range" min="10" max="90">
+        </p>
+        <p>
+            搜索控件：
+            <input type="search">
+        </p>
+        <p>
+            网址控件：
+            <input type="url">
+        </p>
+
+        <p>
+            datalist控件测试
+            <input type="text" list="province-list">
+            <datalist id="province-list">
+                <option value="山东"></option>
+                <option value="陕西"></option>
+                <option value="广东"></option>
+            </datalist>
+
+        </p>
+
+
+        <p>
+            尾部测试
+        </p>
+
+    </form>
+</body>
+
+</html>
