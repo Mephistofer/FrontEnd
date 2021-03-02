@@ -7,14 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="../css/my.css">
+    <!-- <link rel="stylesheet" href="../css/my.css"> -->
     <style>
         /* @import url(../css/a.css); */
-        h3+span {
+        /* h3+span {
             font-style: italic;
+        } */
+
+        /* 
+        p {
+            line-height: 1.4;
         }
-
-
 
         .box4 p:nth-of-type(3) {
             color: red;
@@ -22,12 +25,57 @@
 
         .box4 p:nth-child(4) {
             color: cadetblue;
+        } */
+        body,
+        ul,
+        p,
+        h1,
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box4 {
+            width: 200px;
+            height: 200px;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: bold;
+            font-family: "宋体";
+            font-style: italic;
+            color: red;
+            text-align: center;
+            background-color: blueviolet;
+            border: 10px solid #155;
+            padding: 10px;
+            word-break: break-all;
+            /* word-wrap: break-word; */
+            /* margin: 10px; */
+            margin: 0 auto;
+        }
+
+        .box5 {
+            border: 10px solid #000;
+            width: 200px;
+            height: 200px;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: bold;
+            font-family: "宋体";
+            font-style: italic;
+            color: red;
+            text-align: center;
+            background-color: rgb(203, 206, 56);
+            margin: 50px;
+
         }
     </style>
 </head>
 
 <body>
-    <h1>这是一个人</h1>
+    <h1>
+        <span>这是一个人</span>
+    </h1>
     <h2>这是er个人</h2>
     <h1 class="pp">这是一个人</h1>
     <p class="spec warning">看看这个p是什么颜色的2</p>
@@ -50,10 +98,20 @@
     <span>吐槽</span>
 
     <div class="box4">
-        <p>1</p>
+        fsdfsadasdfsad fffffffffad
+
         <p>2</p>
         <h3>h3</h3>
         <p>4</p>
+
+    </div>
+
+    <div class="box5">
+        <li>列表项</li>
+        <li>列表项</li>
+        <li>列表项</li>
+        <li>列表项</li>
+        <li>列表项</li>
     </div>
 
 
