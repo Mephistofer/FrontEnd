@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>overflow清除浮动原理</title>
+    <style type="text/css">
+        .father {
+            width: 100%;
+            /* height: 200px; */
+            background-color: aquamarine;
+            border: 1px solid blue;
+            /* overflow: hidden; */
+        }
+
+        .son {
+            width: 100px;
+            height: 200px;
+            background-color: black;
+            float: left;
+        }
+
+        .son1 {
+            width: 200px;
+            height: 100px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="son">
+        </div>
+        <div class="son1">
+        </div>
+    </div>
+    <div>
+        <ul>
+            <li>asdfasf</li>
+            <li>asdfasf</li>
+            <li>asdfasf</li>
+            <li>asdfasf</li>
+            <li>asdfasf</li>
+        </ul>
+    </div>
+</body>
+
+</html>

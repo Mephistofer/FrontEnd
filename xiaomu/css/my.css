@@ -1,66 +1,78 @@
-.pp {
-    color: aqua;
-    font-size: x-large;
-    font-weight: 100;
-    font-style: italic;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-div {
+/* 并集选择 */
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 使用继承性，给body标签设置字体 */
+body {
+    font: normal 14px/25px "微软雅黑";
+}
+
+/* 头部 */
+header .header-top {
+    width: 1201px;
+    margin: 0 auto;
+    /* 清除浮动 */
+    overflow: hidden;
+}
+
+header .header-top .logo {
+    width: 221px;
+    height: 63px;
+    padding-top: 27px;
+    float: left;
+}
+header .header-top .logo h1 {
+    width: 221px;
+    height: 63px;
+}
+
+header .header-top .tool {
+    float: right;
+    width: 266px;
+    height: 77px;
+    padding-top: 22px;
+}
+header .header-top .tool .r1 {
+    margin-bottom: 14px;
+}
+header .header-top .tool .r1 .tel {
+    width: 32px;
+    height: 25px;
+}
+
+header .header-top .tool .r1 .tel_number {
+    font-size: 20px;
+    color: #00978e;
+    display: inline-block;
+    width: 158px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    top: -2px;
+    left: 0px;
+}
+
+header .header-top .tool .r1 .icon {
+    width: 24px;
+    height: 24px;
+}
+header .header-top .tool .r1 .chinese_icon {
+    margin-right: 15px;
+}
+header .header-top .tool .r2 {
+    width: 264px;
+    height: 28px;
     border: 1px solid #000;
-}
-
-h1 {
-    color: blueviolet;
-}
-
-h2 {
-    color: bisque;
-    background-color: aquamarine;
-}
-
-li {
-    color: lemonchiffon;
-    background-color: burlywood;
-}
-
-/* p {
-    color: chartreuse;
-    background-color: darkorange;
-    font-size: 23px;
-} */
-
-#p4 {
-    color: beige;
-}
-
-.warning {
-    color: aqua;
-}
-
-.spec {
-    color: bisque;
-}
-
-.fs16 {
-    font-size: 56px;
-}
-
-a:link {
-    color: cornflowerblue;
-}
-
-p > h1 {
-    color: aliceblue;
-}
-
-a:visited {
-    color: red;
-}
-
-a:hover {
-    color: green;
-}
-
-a:active {
-    font-size: 34px;
 }
