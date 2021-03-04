@@ -56,12 +56,13 @@ header .header-top .tool .r1 .tel_number {
     color: #00978e;
     display: inline-block;
     width: 158px;
-    height: 30px;
+    height: 26px;
     text-align: center;
-    line-height: 30px;
+    line-height: 26px;
     position: relative;
     top: -2px;
     left: 0px;
+    /* background-color: orange; */
 }
 
 header .header-top .tool .r1 .icon {
@@ -69,10 +70,10 @@ header .header-top .tool .r1 .icon {
     height: 24px;
 }
 header .header-top .tool .r1 .chinese_icon {
-    margin-right: 15px;
+    margin-right: 13px;
 }
 header .header-top .tool .r2 {
     width: 264px;
     height: 28px;
-    border: 1px solid #000;
+    border: 1px solid #999;
 }
